@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <form id = "FormCadastro" name = "FormCadastro" method = "POST" action = "recebeForm2.php">
+
+            <b> Qual seu sistema operacional? </b><br>
+            <input type = "radio" name = "sistema" value = "Windows 8.1"> Win 98<br>
+            <input type = "radio" name = "sistema" value = "Windows 10"> Win xp <br>
+            <input type = "radio" name = "sistema" value = "Linux"> Linux<br>
+            <input type = "radio" name = "sistema" value = "Mac"> Mac <br>
+
+            <b> Escolha os numeros da sua preferencia: </b><br>
+            <input type = "checkbox" name = "numeros[]" value = "10">10 <br>
+            <input type = "checkbox" name = "numeros[]" value = "100">100 <br>     
+            <input type = "checkbox" name = "numeros[]" value = "1000">1000 <br>   
+            
+            <b>Qual é o seu processador </b><br>
+            <select name = "processador">
+                <option value = "Pentium">Pentium </option>
+                <optin value = "AMD">AMD</option>
+                <option value ="Celeron">Celeron</option>
+            </select>
+
+            <input id="BotaoEnviar" type="submit" value = "Enviar">
+        </form>    
+    </body>
+</html>
